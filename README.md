@@ -1,6 +1,6 @@
 # Research-to-hypothesis synthesiser: Forbes Health
 
-Live: _added after deploy_
+Live: https://forbes-health-synthesiser.vercel.app
 
 Turns messy qualitative research (reviews, support-ticket themes, survey verbatims, session-recording notes) into problem statements ranked by frequency and severity, each mapped to a testable hypothesis with a primary metric, a guardrail metric and an ICE score.
 
