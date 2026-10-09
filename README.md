@@ -1,6 +1,8 @@
-# Research-to-hypothesis synthesiser: Forbes Health
+# Research-to-hypothesis synthesiser
 
 Live: https://forbes-health-synthesiser.vercel.app
+
+Companies: [Forbes Health](https://forbes-health-synthesiser.vercel.app/forbes-health) · [Dermatica](https://forbes-health-synthesiser.vercel.app/dermatica)
 
 Turns messy qualitative research (reviews, support-ticket themes, survey verbatims, session-recording notes) into problem statements ranked by frequency and severity, each mapped to a testable hypothesis with a primary metric, a guardrail metric and an ICE score.
 
@@ -9,7 +11,7 @@ It is a prioritisation accelerator that feeds a rigorous test programme. It does
 ## How to use it
 
 1. Paste verbatims into the box, one per line, or add a `.txt` / `.csv` file. A source tag at the start of each line helps, for example `[trustpilot 2★ 2026-05]`.
-2. Or press **Load sample: Forbes Health reviews**.
+2. Or pick a company at the top and press **Load sample**.
 3. Press **Synthesise**. A full sample takes about a minute.
 4. Press **Copy as Markdown** to paste the ranked table into a doc or deck.
 
@@ -24,7 +26,10 @@ It is a prioritisation accelerator that feeds a rigorous test programme. It does
 
 ## About the sample data
 
-`src/data/forbes-health.txt` is **synthetic**. Every line is tagged `[synthetic]`. Forbes Health has no public review listing of its own, so the sample was written for this demo. Its themes follow the complaints and praise that appear in public reviews of Forbes and its rankings (paid placement, partner billing, lead-form follow-up calls, content accuracy), but none of the lines is a real customer quote. Replace it with real verbatims before drawing conclusions.
+The files in `src/data` are **synthetic**. Every line is tagged `[synthetic]`: they are illustrative verbatims written for this demo, not real customer quotes. Replace them with real verbatims before drawing conclusions.
+
+- `forbes-health.txt`: Forbes Health has no public review listing of its own. Themes follow public reviews of Forbes and its rankings: paid placement, partner billing, lead-form follow-up calls, content accuracy.
+- `dermatica.txt`: themes follow Dermatica's public Trustpilot reviews: trial-to-subscription pricing, cancelling and pausing, support responsiveness, early irritation, time to results, the consultation and photo steps, delivery and stock.
 
 ## Run locally
 

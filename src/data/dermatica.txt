@@ -1,0 +1,44 @@
+[synthetic review 1★ 2026-09] The first month was a couple of pounds and I honestly didn't clock that it rolled straight into the full monthly price. First I knew was the charge on my card.
+[synthetic review 2★ 2026-08] Pricing page shows the trial price in big letters and the real monthly cost much smaller underneath. I felt a bit tricked when the second box arrived.
+[synthetic survey 2026-07] I nearly didn't sign up because I couldn't work out what I'd be paying after the first month until the very last step.
+[synthetic session note 2026-08] User reached the plan selection step, toggled between monthly and the longer plan three times, scrolled looking for a total cost, then left the page.
+[synthetic session note 2026-08] User opened the pricing FAQ from the checkout page, read the renewal answer, returned to checkout and removed the add-on cleanser before paying.
+[synthetic review 1★ 2026-09] Cancelled in my account and was still charged the following month. Took three messages to get it refunded.
+[synthetic review 1★ 2026-07] I only wanted to pause for a month while I was away. Couldn't find how, so I cancelled completely instead.
+[synthetic review 1★ 2026-10] Signed up to the longer plan for the discount and then had a reaction. Was told I couldn't cancel mid-term. Never again.
+[synthetic ticket 2026-08] Customer asking how to skip next month's delivery because they still have half a bottle left. Says the only option they can see is cancel.
+[synthetic ticket 2026-09] Customer charged two days before they intended to cancel. Says they had no reminder that the next order was about to be processed.
+[synthetic survey 2026-06] I've got product stacking up. I'd happily stay if I could get it every six weeks instead of every four.
+[synthetic session note 2026-09] User opened Manage Subscription, scanned the page for a pause or delay option, hovered over Cancel for several seconds, then clicked it and chose "I have too much product" as the reason.
+[synthetic review 1★ 2026-08] Asked the chat a simple question about my order and got the same three bot answers in a loop. No way to reach a person.
+[synthetic review 1★ 2026-09] Chat dropped twice mid-conversation and I had to explain everything from the start each time.
+[synthetic review 2★ 2026-07] Waited five days for a reply about irritation. By then I'd already stopped using it.
+[synthetic ticket 2026-10] Customer has messaged three times about redness and peeling with no clinical reply yet. Asking whether to keep applying or stop.
+[synthetic survey 2026-07] When my skin flared up I needed an answer that day, not a help article.
+[synthetic review 3★ 2026-08] Weeks two and three my skin was red, flaky and worse than before. Nobody warned me properly that this could happen. I nearly quit.
+[synthetic review 2★ 2026-06] The instructions said start slowly but I had no idea what was normal dryness and what was a bad reaction.
+[synthetic survey 2026-08] I stopped after the first bottle because my face was peeling and I thought it wasn't right for me. A friend later told me that's the adjustment phase.
+[synthetic session note 2026-09] User in week three opened the "what to expect" email, clicked through to the help centre, searched "peeling", read two articles, then opened Manage Subscription.
+[synthetic review 3★ 2026-09] Two months in and I can't see any difference. They say give it twelve weeks but that's a lot of money to spend on waiting.
+[synthetic review 2★ 2026-10] Three bottles and my pigmentation looks the same. Hard to stay motivated when you can't tell if it's working.
+[synthetic survey 2026-07] I'd have liked something showing me my progress. I only realised it was working when I found an old selfie.
+[synthetic survey 2026-08] I didn't know whether to ask for a stronger formula or just keep going. Nobody checked in.
+[synthetic review 1★ 2026-07] Was rejected after doing the whole consultation with no real explanation of why. Ten minutes of questions and photos for nothing.
+[synthetic review 2★ 2026-09] The ID and age check kept failing on my phone. I gave up the first time and only came back a week later.
+[synthetic survey 2026-06] Uploading photos of my bare face felt uncomfortable. I wasn't told who would see them or why they were needed.
+[synthetic session note 2026-08] On mobile, user reached the photo upload step, camera permission prompt appeared, user denied it, saw an error with no alternative, and closed the tab.
+[synthetic session note 2026-08] User completed the skin questionnaire, tried to go back to change an answer about pregnancy, found no back button, and restarted the consultation from the beginning.
+[synthetic session note 2026-09] User got to the photo step, switched apps for about four minutes, returned to find the session had reset to the first question.
+[synthetic review 2★ 2026-08] I told them about an allergy in the consultation and the formula still contained something I react to. How closely is anyone reading the answers?
+[synthetic review 3★ 2026-07] Expected to start on a proper strength given I've used retinoids before. Got the lowest one with no explanation.
+[synthetic survey 2026-09] It felt automated. I wanted to know a real dermatology person had looked at my photos and chosen this for me.
+[synthetic review 1★ 2026-09] Parcel was a week late and I ran out. Missing a week of treatment sets you back.
+[synthetic review 2★ 2026-10] Told my formula was out of stock after I'd already been charged. No date for when it would ship.
+[synthetic ticket 2026-09] Customer reports the pump stopped dispensing with product still inside. Second report from this customer.
+[synthetic review 5★ 2026-09] My melasma patches have faded more in three months than in years of shop-bought creams. Worth every penny.
+[synthetic review 5★ 2026-08] The consultation was quick and easy and the cream arrived in a few days. Loved that the strength was adjusted when I asked.
+[synthetic review 5★ 2026-10] Someone from the dermatology team replied the same day when I had dryness and told me exactly how to adjust. That's what kept me going.
+[synthetic review 4★ 2026-07] Breakouts have calmed right down. Took about ten weeks to see it, so you do need patience.
+[synthetic survey 2026-08] I came to Dermatica after two rounds of products from the chemist that did nothing. Getting a prescription without a clinic visit was the reason I signed up.
+[synthetic survey 2026-09] The before and after photos from people with my skin type were what convinced me. I wish they'd been on the first page, not buried.
+[synthetic survey 2026-07] I didn't realise you could get it without seeing someone in person. I almost assumed it wasn't a real prescription.

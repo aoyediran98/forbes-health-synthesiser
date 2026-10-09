@@ -49,14 +49,30 @@ function Score({ label, value, max }: { label: string; value: number; max?: numb
   );
 }
 
-export default function Synthesiser({ samples }: { samples: Sample[] }) {
-  const company = samples[0]?.name ?? "Research";
+export default function Synthesiser({
+  samples,
+  initialSlug,
+}: {
+  samples: Sample[];
+  initialSlug?: string;
+}) {
+  const [slug, setSlug] = useState(initialSlug ?? samples[0]?.slug);
+  const active = samples.find((s) => s.slug === slug) ?? samples[0];
+  const company = active?.name ?? "Research";
   const [inputs, setInputs] = useState("");
   const [result, setResult] = useState<Synthesis | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
   const fileInput = useRef<HTMLInputElement>(null);
+
+  function switchCompany(next: string) {
+    setSlug(next);
+    setInputs("");
+    setResult(null);
+    setError(null);
+    window.history.replaceState(null, "", `/${next}`);
+  }
 
   const append = (text: string) =>
     setInputs((current) => (current.trim() ? `${current.trimEnd()}\n${text}` : text));
@@ -107,6 +123,25 @@ export default function Synthesiser({ samples }: { samples: Sample[] }) {
       <header className="mb-8">
         <p className="text-sm font-medium text-accent">Research-to-hypothesis synthesiser</p>
         <h1 className="mt-1 text-3xl font-bold tracking-tight sm:text-4xl">{company}</h1>
+        {samples.length > 1 && (
+          <nav aria-label="Company" className="mt-4 flex flex-wrap gap-2">
+            {samples.map((sample) => (
+              <button
+                key={sample.slug}
+                type="button"
+                aria-pressed={sample.slug === active.slug}
+                onClick={() => switchCompany(sample.slug)}
+                className={
+                  sample.slug === active.slug
+                    ? "rounded-full border border-accent bg-accent px-3 py-1 text-sm font-medium text-white"
+                    : "rounded-full border border-line px-3 py-1 text-sm font-medium hover:border-accent hover:text-accent"
+                }
+              >
+                {sample.name}
+              </button>
+            ))}
+          </nav>
+        )}
         <p className="mt-3 max-w-2xl text-muted">
           Paste reviews, support-ticket themes, survey verbatims or session notes. Get problem
           statements ranked by frequency and severity, each with a testable hypothesis, a primary
@@ -127,16 +162,15 @@ export default function Synthesiser({ samples }: { samples: Sample[] }) {
           className="w-full rounded-lg border border-line bg-surface p-3 font-mono text-sm leading-relaxed outline-none focus:border-accent focus:ring-2 focus:ring-accent/30"
         />
         <div className="mt-3 flex flex-wrap items-center gap-2">
-          {samples.map((sample) => (
+          {active && (
             <button
-              key={sample.slug}
               type="button"
-              onClick={() => setInputs(sample.text)}
+              onClick={() => setInputs(active.text)}
               className="rounded-lg border border-line px-3 py-2 text-sm font-medium hover:border-accent hover:text-accent"
             >
-              Load sample: {sample.name} reviews
+              Load sample: {active.name} reviews
             </button>
-          ))}
+          )}
           <label className="cursor-pointer rounded-lg border border-line px-3 py-2 text-sm font-medium hover:border-accent hover:text-accent">
             Add .txt or .csv
             <input
@@ -161,7 +195,7 @@ export default function Synthesiser({ samples }: { samples: Sample[] }) {
           </button>
         </div>
         <p className="mt-2 text-xs text-muted">
-          The bundled sample is synthetic: illustrative verbatims written for this demo, not real
+          The bundled samples are synthetic: illustrative verbatims written for this demo, not real
           customer reviews.
         </p>
       </section>
